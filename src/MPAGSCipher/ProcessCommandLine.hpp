@@ -8,6 +8,7 @@
 // Our project headers
 #include "CipherMode.hpp"
 #include "CipherType.hpp"
+#include "CipherFactory.hpp"
 
 /**
  * \file ProcessCommandLine.hpp
