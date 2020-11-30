@@ -102,8 +102,7 @@ int main(int argc, char* argv[])
     }
   }
 
-  //Use the CipherFactory implementation to reduce the code needed to run the cipher via \
-  The use of polymorphism
+  // Use the CipherFactory implementation to reduce the code needed to run the cipher via the use of polymorphism
   auto theCipher = cipherFactory(settings.cipherType, settings.cipherKey);
   std::string outputText {theCipher->applyCipher(inputText, settings.cipherMode)};
 

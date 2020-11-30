@@ -8,7 +8,7 @@
 #include "Cipher.hpp"
 #include "CipherType.hpp"
 
-//enum class CipherTypes {Caesar, Playfair, Vigenere};
+//enum class CipherTypes {Caesar, Playfair, Vigenere}; this is in ciphertype.hpp
 
 std::unique_ptr<Cipher> cipherFactory(const CipherType type, std::string const& key);
 
